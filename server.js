@@ -45,7 +45,7 @@ app.post('/setUserBlockList', (req, res) =>{
 app.all('*', (req, res, next) => {
   res.send({
       'appName': "body-fit",
-      'by':"natali mahmmali & or hadad",
+      
       'git repository':"https://github.com/nataliemahmalie/bodyfit"});
 });
 
